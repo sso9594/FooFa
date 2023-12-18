@@ -14,27 +14,19 @@ GEOMEMO :  야외 지질조사 기록을 위한 GPS 기반 메모 애플리케�
 <hr>
 
 # About Member
-**@ 승용(team leader!)**
+**@ 🙋‍♂️승용(team leader!)**
+sso9594@naver.com/ Server Developer
 
-010-4628-3554
-sso9594@naver.com
-2019038073
+**@ 🙋형진(team member)**
+dkdldlatl12@naver.com/ Android Developer
 
-**@ 형진(team member)**
-010-2623-7240
-dkdldlatl12@naver.com
-2021041079
-
-**@ 혜림(team memeber)**
-
-010-5039-3748
-poonghr@naver.com
-2019020028
+**@ 🙋‍♀️혜림(team memeber)**
+poonghr@naver.com/ Android Developer
 <hr>
 
 # Team Rule
-**정규 회의 시간**
+**✍️ 정규 회의 시간**
 : 매주 목요일 13-14시(데베시 수업 전 공강 이용)
 
-**스크럼**
+**✍️ 스크럼**
 : 노션페이지를 활용해 데일리 온라인 스크럼 진행
