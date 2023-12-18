@@ -17,14 +17,7 @@ class FooFaServerApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Memo memo = new Memo();
-		memo.setMemoid("1");
-		memo.setLat(1.0);
-		memo.setLng(1.0);
-		memo.setTextmemo("hi hi");
-		memo.setImgurl("sdasd");
 
-		System.out.println(memoService.findById("1"));
 	}
 
 }

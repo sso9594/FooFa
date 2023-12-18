@@ -8,6 +8,8 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -18,18 +20,22 @@ public class Memo {
 
     private String textmemo;
 
-    private String imgurl;
+    private List<String> imgurl;
 
     private double lat;
 
     private double lng;
 
+    private String spotid;
+
     @Builder
-    public Memo(Long memoid, String textmemo, String imgurl, double lat, double lng) {
+    public Memo(String memoid, String textmemo, List<String> imgurl, double lat, double lng, String spotid) {
+        this.memoid = memoid;
         this.textmemo = textmemo;
         this.imgurl = imgurl;
         this.lat = lat;
         this.lng = lng;
+        this.spotid = spotid;
     }
 
     public Memo update(MemoDto memoDto){
